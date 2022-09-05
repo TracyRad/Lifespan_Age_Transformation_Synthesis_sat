@@ -7,8 +7,8 @@ import csv
 import shutil
 from pdb import set_trace as st
 
-clusters = ['0-2','3-6','7-9','10-14','15-19',
-            '20-29','30-39','40-49','50-69','70-120']
+clusters = ['7-9','10-14','15-19',
+            '20-29','30-39','40-49']
 
 def processIm(img_filename, phase, csv_row, num):
     img_basename = os.path.basename(img_filename)
